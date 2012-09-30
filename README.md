@@ -24,16 +24,16 @@ client.api("POST", "/me/hackmobile:pew", { website: "http://bobrik.name" }, func
 
 1. Create your client with oauth token:
 
-```javascript
-var fb     = require("fb-js"),
-    client = new fb("my fb token");
-```
+    ```javascript
+    var fb     = require("fb-js"),
+        client = new fb("my fb token");
+    ```
 
 2. Make api calls:
 
-```javascript
-client.api(method, path, [params object], [callback])
-```
+    ```javascript
+    client.api(method, path, [params object], [callback])
+    ```
 
 ## Authors
 
