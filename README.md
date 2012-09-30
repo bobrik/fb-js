@@ -5,7 +5,7 @@ Facebook api for node.js done right, built on top of facebook-js.
 ## Usage:
 
 ```javascript
-var fb     = require("fb-js),
+var fb     = require("fb-js"),
     client = new fb("my fb oauth token");
 
     // regular call without params
@@ -25,7 +25,7 @@ var fb     = require("fb-js),
 1. Create your client with oauth token:
 
 ```javascript
-var fb     = require("fb-js),
+var fb     = require("fb-js"),
     client = new fb("my fb token");
 ```
 
