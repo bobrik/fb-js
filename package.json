@@ -1,0 +1,25 @@
+{
+  "name": "fb-js",
+  "version": "0.1.0",
+  "description": "Facebook api for node.js done right, built on top of facebook-js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bobrik/fb-js.git"
+  },
+  "keywords": [
+    "facebook",
+    "oauth",
+    "fb",
+    "fb.js",
+    "api",
+    "graph",
+    "open",
+    "graph"
+  ],
+  "author": "Ian Babrou <ibobrik@gmail.com>",
+  "license": "MIT"
+}
