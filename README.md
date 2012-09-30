@@ -8,16 +8,16 @@ Facebook api for node.js done right, built on top of facebook-js.
 var fb     = require("fb-js"),
     client = new fb("my fb oauth token");
 
-    // regular call without params
-    client.api("GET", "/me", function(error, result) {
-        console.log(error);
-        console.log(result);
-    });
+// regular call without params
+client.api("GET", "/me", function(error, result) {
+    console.log(error);
+    console.log(result);
+});
 
-    // open graph api call with param
-    client.api("POST", "/me/hackmobile:pew", { website: "http://bobrik.name" }, function() {
-        console.log(arguments);
-    });
+// open graph api call with param
+client.api("POST", "/me/hackmobile:pew", { website: "http://bobrik.name" }, function() {
+    console.log(arguments);
+});
 ```
 
 ## API:
