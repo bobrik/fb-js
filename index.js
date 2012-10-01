@@ -22,6 +22,10 @@
         copiedParams.access_token = this.token;
 
         facebook.apiCall(type, method, copiedParams, function(error, response, body) {
+            if (!error && body.error) {
+                error = body.error;
+            }
+
             callback && callback(error, body);
         });
     };

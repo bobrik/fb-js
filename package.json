@@ -1,6 +1,6 @@
 {
   "name": "fb-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Facebook api for node.js done right, built on top of facebook-js.",
   "main": "index.js",
   "scripts": {
